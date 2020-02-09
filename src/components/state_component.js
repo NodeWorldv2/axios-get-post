@@ -14,7 +14,7 @@ class state_component extends Component {
 
     decrease =()=>{
         this.setState({
-            value: this.state.value-2
+            value: this.state.value-3
         })
 
     }
