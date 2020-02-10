@@ -7,6 +7,7 @@ import NewComponent from './components/new_components';
 import Axiostest from './components/state_component';
 import Axiosfetch from './components/Axios_comp'
 import PostAxios from './components/form/postaxios'
+import PostAxios2 from './components/form/postaxios2'
 
 
 class App extends Component{
@@ -15,7 +16,8 @@ class App extends Component{
           return(
             <div className="App">
             
-              <PostAxios/>
+              <PostAxios2/>
+              
               
             </div>
           )
