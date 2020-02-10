@@ -39,8 +39,8 @@ class Postaxios extends Component {
     render() {
         console.log("Render function call")
         return (
-            <div className="row">
-                    <div className="col-md-6">
+           
+                    <div className="col-md-12">
 
                         <form onSubmit={this.submitHandeler}>
                             <div className="form-group">
@@ -72,7 +72,7 @@ class Postaxios extends Component {
 
                     </div>
                     
-            </div>
+           
         );
     }
 }

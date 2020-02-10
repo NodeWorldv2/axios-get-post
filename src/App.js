@@ -15,8 +15,17 @@ class App extends Component{
         render(){
           return(
             <div className="App">
-            
-              <PostAxios2/>
+
+                <div className="row">
+                  <div className="col-md-6">
+                    <PostAxios/>
+                  </div>
+                  <div className="col-md-6">
+                    <PostAxios2/>
+                  </div>
+              
+                
+                </div>
               
               
             </div>
