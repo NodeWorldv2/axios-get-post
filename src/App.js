@@ -8,6 +8,9 @@ import Axiostest from './components/state_component';
 import Axiosfetch from './components/Axios_comp'
 import PostAxios from './components/form/postaxios'
 import PostAxios2 from './components/form/postaxios2'
+import LocalhostTest from './components/localhosttest'
+import Postaxioslocal from './components/form/postaxioslocal'
+
 
 
 class App extends Component{
@@ -17,13 +20,18 @@ class App extends Component{
             <div className="App">
 
                 <div className="row">
-                  <div className="col-md-6">
+
+                  {/* <div className="col-md-6">
                     <PostAxios/>
                   </div>
                   <div className="col-md-6">
                     <PostAxios2/>
-                  </div>
-              
+                  </div> */}
+
+                  <Postaxioslocal/>
+
+                  <LocalhostTest/>
+
                 
                 </div>
               
